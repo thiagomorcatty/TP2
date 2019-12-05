@@ -1,3 +1,5 @@
+Package Compras;
+
 public class Address {
 
     private String streetname;
