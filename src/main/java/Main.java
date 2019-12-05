@@ -118,7 +118,7 @@ public class Main {
         lista.setRemoveProductFromShoppingCart(product4);
 
 
-        System.out.println("Nome das pessoas com quem a lista está a ser partilhada");
+         System.out.println("Nome das pessoas com quem a lista está a ser partilhada");
         System.out.println(lista.getUserNome());
         for(int i=0; i<lista.getUserList().size();i++) {
             System.out.println(lista.getUserList().get(i).getNome());
@@ -128,8 +128,13 @@ public class Main {
         System.out.println("Total do carrinho:"+lista.getTotalPrice());
 
         System.out.println("Produtos que estao estao na lista de compras:"+lista.getTotalOfProduct());
-        System.out.println("Total do carrinho:"+lista.getTotalPrice());
+        System.out.println("Total da lista de compras:"+lista2.getTotalPrice());
 
-        System.out.println("\nPercetegem completa:"+lista.getPercentagemCompleted();
+        System.out.println("\nPercetegem completa:"+lista.getPercentagemCompleted());
+
+        System.out.println("Imprimir telefones dos utilizadores:");
+        for(int i=0; i<lista.getUserList().size();i++) {
+            System.out.println(lista.getUserList().get(i).getTelefone());
+        }
     }
 }
