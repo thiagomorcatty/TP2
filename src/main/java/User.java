@@ -1,3 +1,5 @@
+Package Compras;
+
 public class User {
     private String nome;
     private String email;
