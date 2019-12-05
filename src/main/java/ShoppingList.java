@@ -6,42 +6,16 @@ import java.util.List;
 public class ShoppingList {
     private String nome;
     private User userNome;
-    //private String userList;
     private List <User> userList = new ArrayList<User>();
-    //private String productList1;
     private List <Product> productList1 = new ArrayList<>();
-    //private String productList2;
     private List <Product> productList2 = new ArrayList<>();
-    //private double porcentagemCompleted;
-    //private int totalOfProducts;
-    //private int totalOfProductsOnShoppingCart;
-    //private double totalOfPrice;
-    //private double totalOfPriceOnShoppingCart;
-    //private Product addProduct;
-    //private Product removeProduct;
-    //private Product addProductToShoppingCart;
-    //private Product removeProductFromShoppingCart;
+
 
     public ShoppingList (String nome, User userNome)
-                         //String userList, String productList1, String productList2,
-                         //double porcentagemCompleted, int totalOfProducts, int totalOfProductsOnShoppingCart,
-                         //double totalOfPrice, double totalOfPriceOnShoppingCart, Product addProduct,
-                         //Product removeProduct, Product addProductToShoppingCart, Product removeProductFromShoppingCart)
+
     {
         this.nome = nome;
         this.userNome = userNome;
-       // this.userList = userList;
-        // this.productList1 = productList1;
-        //this.productList2 = productList2;
-       // this.porcentagemCompleted = porcentagemCompleted;
-       // this.totalOfProducts = totalOfProducts;
-       // this.totalOfProductsOnShoppingCart = totalOfProductsOnShoppingCart;
-       // this.totalOfPrice = totalOfPrice;
-       // this.totalOfPriceOnShoppingCart = totalOfPriceOnShoppingCart;
-       // this.addProduct = addProduct;
-       // this.removeProduct = removeProduct;
-       // this.addProductToShoppingCart = addProductToShoppingCart;
-       // this.removeProductFromShoppingCart = removeProductFromShoppingCart;
 
     }
 
@@ -118,6 +92,36 @@ public class ShoppingList {
 
 }
 
+//private String userList;
+//private String productList1;
+//private String productList2;
+//private double porcentagemCompleted;
+//private int totalOfProducts;
+//private int totalOfProductsOnShoppingCart;
+//private double totalOfPrice;
+//private double totalOfPriceOnShoppingCart;
+//private Product addProduct;
+//private Product removeProduct;
+//private Product addProductToShoppingCart;
+//private Product removeProductFromShoppingCart;
+
+//(String userList, String productList1, String productList2,
+//double porcentagemCompleted, int totalOfProducts, int totalOfProductsOnShoppingCart,
+//double totalOfPrice, double totalOfPriceOnShoppingCart, Product addProduct,
+//Product removeProduct, Product addProductToShoppingCart, Product removeProductFromShoppingCart)
+
+// this.userList = userList;
+// this.productList1 = productList1;
+//this.productList2 = productList2;
+// this.porcentagemCompleted = porcentagemCompleted;
+// this.totalOfProducts = totalOfProducts;
+// this.totalOfProductsOnShoppingCart = totalOfProductsOnShoppingCart;
+// this.totalOfPrice = totalOfPrice;
+// this.totalOfPriceOnShoppingCart = totalOfPriceOnShoppingCart;
+// this.addProduct = addProduct;
+// this.removeProduct = removeProduct;
+// this.addProductToShoppingCart = addProductToShoppingCart;
+// this.removeProductFromShoppingCart = removeProductFromShoppingCart;
 
 //public String getUserList(){
 //  return userList; }
